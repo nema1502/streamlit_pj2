@@ -1,5 +1,4 @@
 langchain
 streamlit
 openai
-os
 python-dotenv

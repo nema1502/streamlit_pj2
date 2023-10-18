@@ -8,7 +8,7 @@ from langchain.chains import SequentialChain, LLMChain
 
 load_dotenv(find_dotenv())
 
-openai_api_key = os.getenv("OPENAI_API_KEY")
+openai_api_key = st.text_input("Enter OpenAI API Key")
 
 st.title("Tweet Generator")
 st.header("Generate Your Next Tweet with Tweet Bot")
